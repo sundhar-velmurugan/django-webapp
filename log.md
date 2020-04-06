@@ -5,3 +5,4 @@
 ### Application and Routes
 - creating a blog app
 `python manage.py startapp blog`
+- created views and routes for blog app
