@@ -31,3 +31,10 @@
 - `python manage.py createsuperuser` to create super user
   - my credentials: *sundhar*
 - Admin page can be accessed in `http://localhost:8000/admin/`
+
+### Database and migrations
+- Database schema is created in `models.py`
+- `python manage.py makemigrations` makes files that has instructions on migrations
+- `python manage.py sqlmigrate <app-name> <migration-id>` - to view the SQL code for the migrations
+- `python manage.py migrate` to run migrations
+- Migrations are an easy way to change database schema
