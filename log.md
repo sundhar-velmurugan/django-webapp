@@ -38,3 +38,4 @@
 - `python manage.py sqlmigrate <app-name> <migration-id>` - to view the SQL code for the migrations
 - `python manage.py migrate` to run migrations
 - Migrations are an easy way to change database schema
+- Models of each app needs to be registed in `admin.py` to view in the admin page
