@@ -23,3 +23,11 @@
 - Static files such as CSS, JS are put inside the *app-name* -> static -> *app-name* directory in the application
 - Static files can be loaded into the template afte adding `{% load static %}` in the top of the template
 - Urls in template can be referenced by url name instead of hardcoding
+
+
+### Admin page
+- Added admin credentials in *auth_user* table
+- `python manage.py migrate` to run migrations - this will create *auth_user* table
+- `python manage.py createsuperuser` to create super user
+  - my credentials: *sundhar*
+- Admin page can be accessed in `http://localhost:8000/admin/`
