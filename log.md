@@ -19,3 +19,4 @@
   - request object
   - path to the template, relative to templates directory in the app
   - data
+- Avoided repeating HTML using Template Inheritance
