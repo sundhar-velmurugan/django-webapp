@@ -20,3 +20,6 @@
   - path to the template, relative to templates directory in the app
   - data
 - Avoided repeating HTML using Template Inheritance
+- Static files such as CSS, JS are put inside the *app-name* -> static -> *app-name* directory in the application
+- Static files can be loaded into the template afte adding `{% load static %}` in the top of the template
+- Urls in template can be referenced by url name instead of hardcoding
