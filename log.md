@@ -39,3 +39,7 @@
 - `python manage.py migrate` to run migrations
 - Migrations are an easy way to change database schema
 - Models of each app needs to be registed in `admin.py` to view in the admin page
+
+### User Registration
+- Created users app using `python manage.py startapp users`
+- Added the users app to the INSTALLED_APPS list in settings.py
