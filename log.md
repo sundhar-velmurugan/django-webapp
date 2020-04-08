@@ -43,3 +43,4 @@
 ### User Registration
 - Created users app using `python manage.py startapp users`
 - Added the users app to the INSTALLED_APPS list in settings.py
+- Flash message [one time notification message] is sent after registration
