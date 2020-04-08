@@ -45,3 +45,4 @@
 - Added the users app to the INSTALLED_APPS list in settings.py
 - Flash message [one time notification message] is sent after registration
 - Created a seperate RegistrationForm from UserCreationForm with email field
+- Registration form is styled using crispy forms
