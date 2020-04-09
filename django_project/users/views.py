@@ -20,3 +20,6 @@ def register(request):
   # Returns empty form for GET request
   # Returns form with erros if 'is_valid' check fails
   return render(request, 'users/register.html', { 'form': form })
+
+def profile(request):
+  return render(request, 'users/profile.html')
