@@ -51,3 +51,6 @@
 - View can be made private using inbuild **login_required** decorator
 
 ### User Profile and Picture
+- User and Profile model is one to one related
+- Media root: location where the uploaded files are in the file system
+- Media url: access the media through browser
