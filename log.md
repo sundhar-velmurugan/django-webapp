@@ -55,3 +55,6 @@
 - Media root: location where the uploaded files are in the file system
 - Media url: access the media through browser
 - Profile automatically created/updated when User is created/updated using django signals
+
+### Update User Profile
+- User and Profile forms are combined and displayed as a single form
