@@ -46,3 +46,6 @@
 - Flash message [one time notification message] is sent after registration
 - Created a seperate RegistrationForm from UserCreationForm with email field
 - Registration form is styled using crispy forms
+
+### Login and logout
+- View can be made private using inbuild **login_required** decorator
