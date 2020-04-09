@@ -49,3 +49,5 @@
 
 ### Login and logout
 - View can be made private using inbuild **login_required** decorator
+
+### User Profile and Picture
