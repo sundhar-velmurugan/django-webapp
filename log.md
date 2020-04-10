@@ -58,3 +58,7 @@
 
 ### Update User Profile
 - User and Profile forms are combined and displayed as a single form
+
+### Create, Update and Delete Posts
+- Default template for class based view is `<app>/<model>_<viewtype>.html`, eg: *blog/post_list.html*
+- 
