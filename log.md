@@ -61,4 +61,4 @@
 
 ### Create, Update and Delete Posts
 - Default template for class based view is `<app>/<model>_<viewtype>.html`, eg: *blog/post_list.html*
-- 
+- Variables are passed in the url: `<int:pk>` - primary key of the model, expecting only integer
