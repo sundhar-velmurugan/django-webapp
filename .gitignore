@@ -1,3 +1,4 @@
 env/
 *pyc
 todo.txt
+sent_emails/

@@ -64,3 +64,6 @@
 - Variables are passed in the url: `<int:pk>` - primary key of the model, expecting only integer
 - Create and update templates are named as `<app>/<model>_form.html`
 - **redirect**: redirects to the url, **reverse**: return the url as a string, the view will handle the redirect
+
+### Password Reset and Change
+- 
