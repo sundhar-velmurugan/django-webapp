@@ -66,4 +66,5 @@
 - **redirect**: redirects to the url, **reverse**: return the url as a string, the view will handle the redirect
 
 ### Password Reset and Change
-- 
+- Emails are currently stored as files in local machine
+- Password change and Password reset implemented from Django Auth
