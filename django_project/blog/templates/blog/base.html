@@ -38,11 +38,6 @@
             {% if user.is_authenticated %}
               <a class="nav-item nav-link" href="{% url 'post-create' %}">New Post</a>
               <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
-              <a class="nav-item nav-link" href="{% url 'password_change' %}">Change Password</a>
-              <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
-            {% else %}
-              <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
-              <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
             {% endif %}
           </div>
         </div>
@@ -64,15 +59,22 @@
       </div>
       <div class="col-md-4">
         <div class="content-section">
-          <h3>Sidebar</h3>
-          <!-- <p class='text-muted'>You can put any information here you'd like.
+          <h3>User Actions</h3>
+          <p class='text-muted'>
             <ul class="list-group">
-              <li class="list-group-item list-group-item-light">Latest Posts</li>
+              {% if user.is_authenticated %}
+                <li class="list-group-item list-group-item-light"><a href="{% url 'password_change' %}">Change Password</a></li>
+                <li class="list-group-item list-group-item-light"><a href="{% url 'logout' %}">Logout</a></li>
+              {% else %}
+                <li class="list-group-item list-group-item-light"><a href="{% url 'login' %}">Login</a></li>
+                <li class="list-group-item list-group-item-light"><a href="{% url 'register' %}">Register</a></li>
+              {% endif %}
+              <!-- <li class="list-group-item list-group-item-light">Latest Posts</li>
               <li class="list-group-item list-group-item-light">Announcements</li>
               <li class="list-group-item list-group-item-light">Calendars</li>
-              <li class="list-group-item list-group-item-light">etc</li>
+              <li class="list-group-item list-group-item-light">etc</li> -->
             </ul>
-          </p> -->
+          </p>
         </div>
       </div>
     </div>
